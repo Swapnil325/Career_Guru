@@ -5,16 +5,14 @@
 /build/
 app/build/
 
-# Gradle
+# Gradle cache
 .gradle/
 app/.gradle/
-gradle-wrapper.jar
 
-# Local config
+# Local config only
 local.properties
-*.properties
 
-# Firebase
+# Firebase - keep out of repo for security
 google-services.json
 
 # IDE
