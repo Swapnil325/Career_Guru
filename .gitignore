@@ -1,0 +1,32 @@
+# Built outputs
+*.apk
+*.aab
+*.dex
+/build/
+app/build/
+
+# Gradle
+.gradle/
+app/.gradle/
+gradle-wrapper.jar
+
+# Local config
+local.properties
+*.properties
+
+# Firebase
+google-services.json
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Keystore
+*.jks
+*.keystore
+
+# Logs
+*.log
