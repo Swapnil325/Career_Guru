@@ -29,7 +29,9 @@ jobs:
         run: echo "$GOOGLE_SERVICES" > app/google-services.json
 
       - name: Build Debug APK
-        run: gradle assembleDebug
+        run: gradle assembleDebug --warning-mode none
+        env:
+          GRADLE_OPTS: "-Dorg.gradle.daemon=false"
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
